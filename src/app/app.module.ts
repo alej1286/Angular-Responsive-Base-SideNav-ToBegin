@@ -9,10 +9,9 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatIconModule} from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
-import { DefaultComponent } from './admin/default/default.component';
-import { SidebarComponent } from './admin/shard/sidebar/sidebar.component';
-import { DashboardComponent } from './admin/dashboard/dashboard.component';
-import { PostsComponent } from './admin/dashboard/posts/posts.component';
+import { DefaultComponent } from './Components/default/default.component';
+import { SidebarComponent } from './Components/sidebar/sidebar.component';
+import { DashboardComponent } from './Components/dashboard/dashboard.component';
 
 const Ux_Modules = [
   MatButtonModule,
@@ -24,8 +23,7 @@ const Ux_Modules = [
     AppComponent,
     DefaultComponent,
     SidebarComponent,
-    DashboardComponent,
-    PostsComponent
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
